@@ -19,6 +19,7 @@ for (item of buttons) {
         }
         else if (buttonText == '=') {
             screen.value = eval(screenValue);
+            announce(`The result is ${screen.value}`)
         }
         else {
             screenValue += buttonText;
@@ -50,6 +51,7 @@ document.addEventListener("keydown", function(event) {
     if(event.keyCode == 13 || event.keyCode == 187)
     {
         screen.value = eval(screenValue);
+        announce(`The result is ${screen.value}`)
     }
     else if(event.keyCode == 46){
         screenValue = "";

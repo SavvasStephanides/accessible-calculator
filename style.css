@@ -124,3 +124,8 @@ a:hover{
         background-color: rgba(236, 240, 241, 1.0);
     }
 }
+
+#announcer{
+    position: fixed;
+    top: 100%;
+}
