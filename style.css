@@ -84,6 +84,12 @@ button:hover {
     -o-transition: all ease 0.5s;
 }
 
+button:focus{
+    outline: 6px solid yellow;
+    background-color: black;
+    color: white;
+}
+
 a{
     outline: none;
     -moz-transition: all ease 0.5s;
